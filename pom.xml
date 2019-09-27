@@ -32,6 +32,27 @@
           </archive>
         </configuration>
       </plugin>
+      <plugin>
+                <groupId>org.mule.tools.maven</groupId>
+                <artifactId>mule-maven-plugin</artifactId>
+                <version>3.1.6</version>
+                <extensions>true</extensions>
+                <configuration>
+                       <cloudHubDeployment>
+                              <uri>https://anypoint.mulesoft.com</uri>
+                              <muleVersion>4.2.0</muleVersion>
+                              <username>yougandarm</username>
+                              <password>Password@123</password>
+                              <applicationName>project-1-kcxa</applicationName>
+                              <environment>java</environment>
+                              <businessGroup>sysgain</businessGroup>
+                              <workerType>small</workerType>
+                             <properties>
+                                    <key>value</key>
+                             </properties>
+                       </cloudHubDeployment>
+                </configuration>
+            </plugin>
     </plugins>
   </build>
 </project>
