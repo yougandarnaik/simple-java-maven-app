@@ -59,12 +59,6 @@
                        </cloudHubDeployment>
                 </configuration>
             </plugin>
-      <pluginRepositories>
-  <pluginRepository>
-    <id>mule-public</id>
-    <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
-  </pluginRepository>
-</pluginRepositories>
     </plugins>
   </build>
 </project>
